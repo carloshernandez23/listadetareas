@@ -1,0 +1,279 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Unbounded', cursive;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background-color: #121212;
+    color: whitesmoke;
+    display: flex;
+    gap: 2rem;
+
+}
+
+
+h1 {
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin: 0;
+
+}
+
+p {
+  margin: 0;
+}
+
+.logo {
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.container {
+  background-color: #191919;
+  padding: 1rem;
+  border-radius: 1rem;
+  max-height: 30rem;
+  width: 80%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0px 0px 27px 0px rgba(54,54,54,0.75);
+-webkit-box-shadow: 0px 0px 27px 0px rgba(54,54,54,0.75);
+-moz-box-shadow: 0px 0px 27px 0px rgba(54,54,54,0.75);
+}
+
+.search {
+  background-color:  #191919;
+  color: #191919 ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-color: #191919;
+}
+
+form {
+  display: flex;
+  border-radius: 0.5rem;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Unbounded', cursive;
+  padding: 15px 10px;
+  outline: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: #191919 ;
+  color: white;
+  border: 2px solid #121212;
+}
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+    font-family: 'Unbounded', cursive;
+  color: white;
+}
+
+.correct {
+  border-color: #17a34a;
+  
+}
+
+.wrong {
+border-color: #dc2626;
+}
+
+.li-container {
+  background-color: #191919 ;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 1rem;
+  border: 0.5rem;
+  gap: 1rem;
+
+}
+
+ul {
+  padding: 0;
+  background-color:  #191919;
+  margin: 0;
+  height: auto;
+  
+
+}
+
+#lista {
+  padding: 0;
+  background-color:  #191919;
+  margin: 0;
+  overflow-y: scroll;
+  
+}
+
+#lista::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+#lista::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: #121212; 
+}
+
+#lista::-webkit-scrollbar-track {
+  border-radius: 0.5rem;
+  background-color: #191919; 
+}
+
+svg, path {
+  pointer-events: none;
+}
+
+
+
+.li {
+  margin: 0;
+  list-style: none;
+  color: whitesmoke;
+  background-color: #27272a;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin-top: 3px;
+  height: auto;
+  
+}
+
+
+.li-p {
+  margin: 0;
+  border-radius: 0.5rem;
+  text-align: justify;
+  text-align: center;
+  height: auto;
+  width: 80%;
+
+}
+
+.line-through{
+  margin: 0;
+  border-radius: 0.5rem;
+  text-align: justify;
+  text-align: center;
+  height: auto;
+  width: 80%;
+  text-decoration-thickness: 0.3rem;
+  text-decoration-line: line-through;
+  text-decoration-color: #27272a;
+  opacity: initial;
+}
+
+
+.btn-complete {
+  margin-left: auto;
+  border: none;
+  background-color: #27272a;
+  color: white;
+  font-weight: bold;
+  padding: 5px 14px;
+  outline: none;
+  font-size: 1.4rem;
+  width: auto;
+  border-radius: 0.5rem;
+
+}
+
+.btn-complete:hover {
+  cursor: pointer;
+  background-color: #121212;
+  border-radius: 0.5rem;
+  transition: all 0.7s;
+}
+
+.btn-trash {
+  margin-left: auto;
+  border: none;
+  background-color: #27272a;
+  color: white;
+  font-weight: bold;
+  padding: 5px 14px;
+  outline: none;
+  font-size: 1.4rem;
+  width: auto;
+  border-radius: 0.5rem;
+
+}
+
+.btn-trash:hover {
+  cursor: pointer;
+  background-color: #121212;
+  border-radius: 0.5rem;
+  transition: all 0.7s;
+}
+
+.btn-add {
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  font-family: fantasy;
+  background-color: #121212;
+  font-size: 1.4rem;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+.btn-add:hover {
+  cursor: pointer;
+  background-color: #17a34a;
+  transition: all 0.7s;
+}
+
+#conta1 {
+  margin: 0;
+  color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #17a34a;
+  border-radius: 3rem;
+
+}
+
+#conta2 {
+  margin: 0;
+  color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #dc2626;
+  border-radius: 3rem;
+ 
+}
+
+#conta3 {
+  margin: 0;
+  color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #27272a;
+  border-radius: 3rem;
+  
+}
+
+
+
+
+@media (min-width:600px) {
+  .container {
+    width: 50%;
+    max-height: 24rem;
+  }
+ 
+
+}
